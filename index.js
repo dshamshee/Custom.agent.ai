@@ -119,7 +119,7 @@ async function callGeminiAPI(contents, responseType = null) {
 // Main function to run the conversation
 async function main() {
   try {
-    const userQuery = "create a todo app with HTML, CSS and JS fully working";
+    const userQuery = "create a todo app folder and create a todo app with HTML, CSS and JS fully working";
     // Create the conversation with system prompt and user query
     const contents = [
       {
